@@ -8,6 +8,7 @@ import { ChildComponent } from './child/child.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CreateProductComponent } from './create-product/create-product.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     ParentComponent,
     ChildComponent,
     ProductListComponent,
-    CreateProductComponent
+    CreateProductComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
